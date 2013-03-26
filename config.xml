@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "name.auyeung.fay.sociogram"
+        versionCode = "10"
+        version     = "1.0.0">
+ 
+    <name>Fay SocioGram</name>
+ 
+    <description>
+        A simple PhoneGap application based on Christophe Coenraets (ccoenraets@gmail.com) Facebook Plugin
+        https://github.com/ccoenraets/sociogram-mobile
+    </description>
+ 
+    <author href="" email="francis.auyeung@gmail.com">
+        Francis Au-Yeung
+    </author>
+
+    <access origin="*"/>
+
+    <gap:plugin name="FacebookConnect">
+        <param name="APP_ID" value="107972069389560"/>
+    </gap:plugin>
+ 
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/contacts"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/media"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
+ 
+</widget>
